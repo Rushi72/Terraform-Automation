@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "rushi722"
     key = "main"
-    region = "ap-south-1"
+    region = "eu-west-2b"
     dynamodb_table = "terraformproject"
   }
 }
