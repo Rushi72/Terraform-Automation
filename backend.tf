@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "rushi722"
+    bucket = "rushiterraform"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "terraformproject"
+    dynamodb_table = "rushidynamodb"
   }
 }
